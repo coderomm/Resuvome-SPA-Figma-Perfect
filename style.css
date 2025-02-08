@@ -2094,6 +2094,18 @@ body.ogs-popup-open {
     letter-spacing: 0;
   }
 
+  .check-eligibility-wrapper .button-primary {
+    width: 214px;
+    height: 48px;
+    border-width: 1px;
+    border-radius: 36px;
+    gap: 6px;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+  }
+
   .check-eligibility-wrapper .button-primary-lbl {
     font-family: "GeneralSans-Regular", sans-serif;
     font-weight: 400;
