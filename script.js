@@ -23,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Initialize email service
     try {
-        emailjs.init("Net0fdcPMvBWvKdPC");
+        emailjs.init(""); // Public Key
 
         document.getElementById("contact-form").onsubmit = function (event) {
             event.preventDefault();
 
-            const serviceID = "service_0ij0mjd";
-            const templateID = "template_57qjhfq";
+            const serviceID = ""; // Service ID
+            const templateID = ""; // Template ID
 
             const templateParams = {
                 user_name: document.getElementById("user_name").value,
